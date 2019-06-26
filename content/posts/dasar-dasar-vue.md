@@ -50,7 +50,8 @@ function log(text='logged'){
 </script>
 // Penulisan Event menggunakan titik dua : , dengan format on:event
 <button on:click="{log}"></button>
-/* Pemanggilan Fungsi dengan parameter ditulis sedikit berbeda dengan membuka fungsi baru
+/* Pemanggilan Fungsi dengan parameter 
+ditulis sedikit berbeda dengan membuka fungsi baru
 */  
 <button on:click="{()=>{ log('Log With Param') }}"></button>
 berikut adalah contoh penulisan logika di html
