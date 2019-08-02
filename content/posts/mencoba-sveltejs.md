@@ -1,6 +1,6 @@
 ---
 title: Mencoba Svelte JS
-date: 2019-01-07
+date: 2019-07-01
 published: true
 tags: ['Svelte', 'Javascript']
 series: false
