@@ -14,7 +14,9 @@
 		<p class="author__links">
 			<a href="//github.com/naufalafif">GitHub</a>
 		</p>
-
+    <p class="author__links">
+			<a href="//https://www.visualcv.com/naufalafif/">CV</a>
+		</p>
 	</div>
 </template>
 
@@ -55,6 +57,7 @@ export default {
 	}
 
 	&__links {
+    display: inline-flex;
 		margin-top: -.5em;
 		a {
 			margin: 0 .5em;
