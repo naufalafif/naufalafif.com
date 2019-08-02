@@ -15,7 +15,7 @@
 			<a href="//github.com/naufalafif">GitHub</a>
 		</p>
     <p class="author__links">
-			<a href="//https://www.visualcv.com/naufalafif/">CV</a>
+			<a href="//visualcv.com/naufalafif/">CV</a>
 		</p>
 	</div>
 </template>
