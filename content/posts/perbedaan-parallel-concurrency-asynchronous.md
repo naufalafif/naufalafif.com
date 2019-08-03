@@ -2,7 +2,7 @@
 title: Perbedaan Parallel, Concurrency & Asynchronous
 date: 2019-08-02
 published: true
-tags: ['execution', 'hardware', 'performance', 'Javascript']
+tags: ['execution', 'hardware', 'performance']
 series: false
 cover_image: ./images/concurrency-parallel-asynchronous.jpg
 canonical_url: false
