@@ -11,9 +11,9 @@
 			Sharing Ilmu & Pengalaman tentang Coding
 		</p>
 
-		<p class="author__links">
+		<!-- <p class="author__links">
 			<a href="//github.com/naufalafif">GitHub</a>
-		</p>
+		</p> -->
     <!-- <p class="author__links">
 			<a href="//visualcv.com/naufalafif/">CV</a>
 		</p> -->
@@ -30,7 +30,7 @@ query {
 
 <script>
 export default {
-	props: ['showTitle']
+  props: ['showTitle', 'posts']
 }
 </script>
 
