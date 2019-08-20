@@ -5,7 +5,7 @@
     
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node" v-show="edge.node.published"/>
     </div>
 
   </Layout>
@@ -18,6 +18,7 @@
       node {
         id
         title
+        published
         path
         tags {
           id
