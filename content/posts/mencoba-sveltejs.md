@@ -21,7 +21,7 @@ Jika kita membaca dari penjelasan di official websitenya, Svelte JS adalah pende
 untuk instalasi bisa dilihat di official repo
 Penulisan kode pada Svelte JS sangat sederhana seperti kode berikut
 
-````
+````html
 <script>
  let name = ‘world’;
 </script>
@@ -30,7 +30,7 @@ Penulisan kode pada Svelte JS sangat sederhana seperti kode berikut
 
 kode diatas akan menghasilkan halaman web dengan tampilan Hello World . Svelte js mengcompile value dari variabel `name` sehingga dapat ditampilkan dengan mudah di elemen HTML. Svelte JS juga menyingkat penulisan kode dengan baik dibandingkan cara tradisional seperti kode berikut
 
-````
+````html
 Hello <span id=”text”></span>
 <script>
 let word = “World”
@@ -41,7 +41,7 @@ document.getElementById(‘text’).innerHTML = word
 Penulisan kode di Svelte JS sedikit berbeda dengan cara tradisional seperti penulisan event & penulisan logika di html. berikut adalah contoh penulisan kode event
 
 
-````
+````html
 // PENULISAN EVENT
 <script>
 function log(text='logged'){
@@ -65,7 +65,7 @@ let listOfNum = [1,2,3,4,5]
 ````
 
 sedikit catatan, Svelte JS melakukan update dom dengan mengecek apakah terdapat assignment, jadi kode seperti push dll tidak akan mengubah tampilan page. kode tersebut bisa diakali seperti kode dibawah
-````<script>
+````html
 let listOfNum = [1,2,3,4,5]
 listOfNum.push(6) // Tidak reaktiv, sehingga dom tidak diupdate
 // Solusi,mengganti dengan assignment
