@@ -1,6 +1,6 @@
 ---
 title: Membuat Aplikasis Analisis Sentiment #1
-date: 2019-08-15
+date: 2019-09-02
 published: true
 tags: ['python','sentiment analisys','classification']
 series: false
