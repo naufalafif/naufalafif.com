@@ -17,7 +17,7 @@ Pernah melihat review aplikasi di play store ? jumlah review untuk satu aplikasi
 Secara sederhananya aplikasi analisis sentimen adalah program yang menerima input data berupa text dan memproses text tersebut dan menentukan apakah text tersebut bersentiment negatif, positif ataupun netral
 
 #### Bagaimana Cara Kerja Aplikasi Analisis Sentimen ?
-<img src="https://raw.githubusercontent.com/naufalafif/naufal.netlify.com/master/content/posts/images/how-sentiment-app-work.png" style='width:74%'/>
+<img src="https://raw.githubusercontent.com/naufalafif/naufal.netlify.com/master/content/posts/images/how-sentiment-app-work.png"/>
 
 Secara sederhana aplikasi Analisis Sentimen bekerja seperti gambar diatas dengan memproses dataset yang kita berikan lalu diproses hingga data tersebut layak untuk dijadikan sebagai data latih, untuk selanjutnya digunakan untuk melatih model yang digunakan. 
 
