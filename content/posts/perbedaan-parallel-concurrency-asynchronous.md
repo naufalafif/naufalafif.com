@@ -18,7 +18,7 @@ so, mari kita bahas satu per satu
 ## Parallel
 > Parallel computing is a type of computation in which many calculations or the execution of processes are carried out **simultaneously**. Wikipedia
 
-Parallel adalah eksekusi beberapa/banyak tugas yang dilakukan secara bersamaan. Parallel ibarat seorang pria yang sedang berkendara sambil menelpon. pria tersebut melakukan 2 tugas sekaligus pada waktu bersamaan, yaitu naik berkendara & menelpon.
+Parallel adalah eksekusi beberapa/banyak tugas yang dilakukan secara bersamaan. Parallel ibarat seorang pria yang sedang berkendara sambil menelpon. pria tersebut melakukan 2 tugas sekaligus pada waktu bersamaan, yaitu berkendara & menelpon.
 
 <img src="https://i.ibb.co/NjGPYMY/talking-while-driving.jpg" alt="talking while driving" title="talking while driving" style="border-radius:10px;display:block;margin:45px auto 50px auto;width:60%;" />
 
@@ -27,7 +27,7 @@ Perlu diketahui juga, parallel tidak harus dilakukan oleh satu orang, Parallel b
 ## Concurrency
 > Concurrency means multiple computations are happening **at the same time**. MIT Edu
 
-Concurrency adalah beberapa komputasi yang terjadi pada waktu yang sama. jika kita membaca sekilas tanpa memperhatikan setiap kata, mungkin akan terdengar sama dengan pengertian **parallel**. letak perbedaannya adalah pada kata "at the same time". pada waktu yang sama bukan berarti dilakukan secara sepenuhnya bersamaan. Concurrentcy ibarat temen kita yang nyanyi sambil makan. temen kita ngelakuin 2 hal pada waktu yang sama, tetapi bergantian. karena 2 hal tersebut tidak bisa dilakukan secara bersamaan.
+Concurrency adalah beberapa komputasi yang terjadi pada waktu yang sama. jika kita membaca sekilas tanpa memperhatikan setiap kata, mungkin akan terdengar sama dengan pengertian **parallel**. letak perbedaannya adalah pada kata "at the same time". pada waktu yang sama bukan berarti dilakukan secara sepenuhnya bersamaan. Concurrency ibarat temen kita yang nyanyi sambil makan. temen kita ngelakuin 2 hal pada waktu yang sama, tetapi bergantian. karena 2 hal tersebut tidak bisa dilakukan secara bersamaan.
 
 <img src="https://i.ibb.co/SQdS2Tr/eating-jackson.gif" alt="talking while driving" title="talking while driving" style="border-radius:10px;display:block;margin:45px auto 50px auto;width:60%;" />
 
