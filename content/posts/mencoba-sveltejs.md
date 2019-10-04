@@ -67,7 +67,7 @@ let listOfNum = [1,2,3,4,5]
 sedikit catatan, Svelte JS melakukan update dom dengan mengecek apakah terdapat assignment, jadi kode seperti push dll tidak akan mengubah tampilan page. kode tersebut bisa diakali seperti kode dibawah
 ````html
 let listOfNum = [1,2,3,4,5]
-listOfNum.push(6) // Tidak reaktiv, sehingga dom tidak diupdate
+listOfNum.push(6) // Tidak reactive, sehingga dom tidak diupdate
 // Solusi,mengganti dengan assignment
 listOfNum = [...listOfNum, 6]
 </script>
