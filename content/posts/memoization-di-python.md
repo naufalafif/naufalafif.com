@@ -22,7 +22,18 @@ nah, memoization adalah salah satu bentuk implementasi dari caching. hanya saja 
 
 pertama kita buat program yang mensimulasikan proses yang berat.
 
-<script src="https://gist.github.com/naufalafif/a1a365dd32034e51033df2dce54bf12f.js"></script>
+
+    import time
+    
+    def fake_heavy_computation(value):
+        """ function ini mensimulasikan komputasi berat"""
+        time.sleep(2) # menunggu 2 detik untuk lanjut ke statement berikutnya
+        return value
+    
+    start_time = time.time()
+    fake_heavy_computation(2)
+    print(f"selesai dalam {(time.time()-start_time)} detik")
+    # selesai dalam 2.002336025238037 detik
 
 eksekusi function diatas menghabiskan waktu 2 detik untuk selesai, dengan kata lain jika kita menjalankan function diatas sebanyak 100x maka akan menghabiskan waktu kurang lebih 200 detik. lama bukan
 
