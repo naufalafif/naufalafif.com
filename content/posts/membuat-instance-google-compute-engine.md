@@ -1,6 +1,6 @@
 ---
 title: Membuat Instance Google Compute Engine
-date: 2020-10-10
+date: 2020-11-22
 published: true
 tags: ['google cloud platrofm', 'google compute engine']
 series: false
