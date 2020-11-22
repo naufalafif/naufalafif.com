@@ -45,7 +45,7 @@ proses ini bisa membutuhkan waktu beberapa menit untuk selesai saat pertama kali
 
 
 <img src='https://miro.medium.com/max/700/1*zYpX3vuWWuxDOIIsnGB38A.png' style="margin: auto;max-width: fit-content;">
-
+<br>
 
 5. Klik **Create**
 
